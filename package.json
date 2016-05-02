@@ -1,0 +1,26 @@
+{
+  "name": "cosimo",
+  "version": "0.0.0",
+  "description": "Frontend framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antsav/cosimo"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antsav/cosimo/issues"
+  },
+  "homepage": "https://github.com/antsav/cosimo",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-copy-to": "0.0.12",
+    "time-grunt": "^1.3.0"
+  }
+}
