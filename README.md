@@ -33,7 +33,8 @@ Robin Rendle - <a href="https://robinrendle.com/essays/new-web-typography/">The 
 ## Usage
 
 ##### Setup
-just make a build by running `grunt` in the root directory and use **app.css** in your project 
+* just make a build by running `grunt` in the root directory and use **app.css** in your project 
+* or open **index.html** to see available components
 
 ##### Components
 * `div.container` - main master container that holds all content
