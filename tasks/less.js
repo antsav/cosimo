@@ -14,7 +14,7 @@ module.exports = function less(grunt) {
             compress: true
         },
         files: {
-            'build/css/app.css': 'src/less/app.less'
+            'build/css/app.min.css': 'src/less/app.less'
         }
       }
 	};
