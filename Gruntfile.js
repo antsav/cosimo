@@ -1,6 +1,5 @@
 'use strict';
 
-
 module.exports = function (grunt) {
     require('time-grunt')(grunt);
 
@@ -10,6 +9,6 @@ module.exports = function (grunt) {
     });
 
     // App tasks
-    grunt.registerTask('default', ['less']);
+    grunt.registerTask('default', ['clean:all', 'less']);
 
 };

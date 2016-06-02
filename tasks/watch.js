@@ -1,6 +1,5 @@
 'use strict';
 
-
 module.exports = function less(grunt) {
 	// Load task
 	grunt.loadNpmTasks('grunt-contrib-watch');
