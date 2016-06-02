@@ -16,7 +16,6 @@ The Cosimo Initiative takes learnings from the physical print world and adapts t
 The framework has taken individual components (input fields, dropdowns, buttons, what have you) and defined how they interact with one another and the medium they are displayed on. We stepped away from using pixels to define the components, using just rems and ems set from a base font-size.
 
 <br>
-#### More information coming as we build it out...
 
 
 
