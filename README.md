@@ -30,3 +30,11 @@ Robin Rendle - <a href="https://robinrendle.com/essays/new-web-typography/">The 
 
 ![](https://raw.githubusercontent.com/antsav/cosimo/master/src/img/bla.gif "Build")
 --->
+
+## Usage
+
+##### Setup
+just make a build by running `grunt` in the root directory and use **app.css** in your project 
+
+##### Components
+* `div.container` - main master container that holds all content
