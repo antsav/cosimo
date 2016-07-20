@@ -1,0 +1,33 @@
+/* HEADERS OF ALL KINDS */
+/* Each header in this section is broken down into ..... */
+
+/* mixins */
+.header-mixin(@fs, @fw, @lh, @mt, @ml, @mb, @mr) {
+  font-size:@fs;
+  font-weight:@fw;
+  line-height:@lh;
+  margin:@mt @ml @mb @mr;
+}
+
+
+/* components */
+h1.c {
+  .header-mixin(5rem, 100, 4rem, 0, 0, 4rem, 0)
+}
+
+h2.c {
+  .header-mixin(2rem, 700, 2.5rem, 2rem, 0, 2rem, 0)
+}
+
+h3.c {
+  .header-mixin(1.25rem, 500, 1.5rem, 1rem, 0, 1rem, 0)
+}
+
+h4.c {
+  .header-mixin(1rem, 700, 1.5rem, 1rem, 0, 1rem, 0)
+}
+
+h5.c {
+  text-transform: uppercase;
+  .header-mixin(0.875rem, 700, 1rem, 1rem, 0, 1rem, 0)
+}
